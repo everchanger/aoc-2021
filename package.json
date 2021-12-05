@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "ts-standard",
     "lint:fix": "ts-standard --fix",
-    "dev": "ts-node-dev --respawn --quiet src/index.ts"
+    "dev": "ts-node-dev --respawn --quiet src/index.ts",
+    "make": "ts-node-dev --respawn --quiet src/make.ts"
   },
   "repository": {
     "type": "git",
